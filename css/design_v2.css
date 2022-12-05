@@ -1,0 +1,343 @@
+@font-face {
+	font-family: 'GT America';
+	src: url('../fonts/GT-America-Standard-Regular.eot');
+	src: url('../fonts/GT-America-Standard-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/GT-America-Standard-Regular.woff') format('woff'),
+		url('../fonts/GT-America-Standard-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Reckless';
+	src: url('../fonts/RecklessTRIAL-Medium.eot');
+	src: url('../fonts/RecklessTRIAL-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/RecklessTRIAL-Medium.woff') format('woff'),
+		url('../fonts/RecklessTRIAL-Medium.ttf') format('truetype'),
+		url('../fonts/RecklessTRIAL-Medium.otf') format('opentype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Univers Next Pro';
+	src: url('../fonts/UniversNextPro-Regular.eot');
+	src: url('../fonts/UniversNextPro-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/UniversNextPro-Regular.woff') format('woff'),
+		url('../fonts/UniversNextPro-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Neue Haas Grotesk';
+	src: url('../fonts/NHaasGroteskDSStd-95Blk.eot');
+	src: url('../fonts/NHaasGroteskDSStd-95Blk.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/NHaasGroteskDSStd-95Blk.woff') format('woff'),
+		url('../fonts/NHaasGroteskDSStd-95Blk.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0; 
+	font-family: "GT America", "helvetica-neue", Helvetica, serif;
+	font-size: 16px;
+	color: #000;
+	min-height: 100%;
+	height: 100%;
+	background-color: #f9f9f9;
+}
+
+nav {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+	background-color: rgba(249, 249, 249, 0.8);
+	backdrop-filter: blur(2px);
+	position: fixed;
+	width: 100%;
+	margin-top: 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 24px;
+	max-width: 1280px;
+}
+
+nav ul li {
+	display: inline-block;
+
+	font-family: 'GT America';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 16px;
+	/* identical to box height, or 107% */
+	text-align: right;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+
+	color: #333333;
+	margin: 0px 24px 0px 0px;
+	padding: 18px 0 16px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #333333;
+}
+
+nav ul li a:hover {
+	/* color: #000AFF; */
+}
+
+section.clear {
+	clear: both;
+	margin-top: 0;
+	padding-top: 50px;
+}
+
+img {
+	width: 100%;
+	border-radius: 8px;
+}
+
+h1 {
+	font-family: 'Reckless';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 50px;
+	line-height: 114%;
+
+	color: #000000;
+}
+
+h1 a {
+	color: #000;
+	text-decoration: none;
+}
+
+h2 {
+	font-family: 'Reckless';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 46px;
+	line-height: 124%;
+
+	margin-bottom: 0;
+	margin-top: 0;
+
+	color: #000000;
+}
+
+h2 a {
+	color: #000;
+}
+
+h3 {
+	font-family: 'Reckless';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 38px;
+	line-height: 114%;
+	margin-bottom: 0;
+	margin-top: 0;
+
+	color: #000000;
+}
+
+h4 {
+
+	font-family: GT America;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 32px;
+	/* identical to box height, or 200% */
+	letter-spacing: 0.5px;
+	margin-top: 8px;
+	text-transform: uppercase;
+
+	color: #666666;
+
+
+}
+
+p, .links a {
+	font-weight: normal;
+	margin: 0 0 1.5em;
+	letter-spacing: 0;
+
+	/* from Sketch */
+	font-family: 'GT America', 'UniversNextPro-Regular', 'Helvetica Neue', helvetica, sans-serif;
+	font-size: 19px;
+	color: #333;
+	line-height: 1.6;
+}
+
+p > a, p.future-link {
+	color: #333;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.links a {
+	margin-right: 16px;
+}
+
+a:hover {
+	color: rgba(51,51,51,0.7);
+}
+
+a.button-style {
+	font-weight: normal;
+	border: 1px solid rgba(255,255,255,0.4);
+	padding: 14px;
+	display: block;
+	text-align: center;
+}
+
+hr {
+	border: 1px solid #AAA;
+	border-bottom: 0 none;
+}
+
+.bg-breaker {
+	padding-top: 180px;
+	margin-top: 120px;
+	width: 100%;
+	object-fit: cover;
+	background: url("../img/work-bg.svg") no-repeat;
+  background-size: cover;
+}
+
+.bg-breaker-2 {
+	object-fit: cover;
+	background: url("../img/footer-bg.svg") no-repeat;
+  background-size: cover;
+}
+
+section.after-breaker {
+	margin-top: -120px;
+}
+
+.work-row {
+	margin-top: 90px;
+}
+
+footer {
+	padding-bottom: 50px;
+}
+
+.margin-bottom {
+	margin-bottom: 52px;
+}
+
+.floatLeft {
+	float: left;
+	margin-right: 30px;
+}
+
+.floatRight {
+	float: right;
+	margin-left: 30px;
+}
+
+.clear {
+	clear: both;
+}
+
+.social a {
+	background: transparent url('../img/icon-email.png') no-repeat top left;
+	margin-right: 10px;
+	height: 44px;
+	width: 44px;
+	display: inline-block;
+	opacity: 0.9;
+}
+
+.social a#github { background-image: url('../img/github.png'); }
+.social a#linkedin { background-image: url('../img/icon-linkedin.png'); }
+
+
+.social a:hover { opacity: 0.7;}
+
+@media screen and (max-width : 48em) {
+	nav ul {
+		padding: 0;
+	}
+	.hide-xs {
+		display: none;
+	}
+}
+
+@media screen and (min-width : 36em) {
+	h1 {
+		font-size: 58px;
+	}
+	h2 {
+		font-size: 50px;
+	}
+	h3 {
+		font-size: 40px;
+	}
+}
+
+@media screen and (min-width : 48em) {
+	h1 {
+		font-size: 64px;
+	}
+	h2 {
+		font-size: 58px;
+	}
+	nav ul {
+		margin: 0 auto;
+	}
+	nav ul li {
+		margin: 0px 48px 0px 0px;
+	}
+	.work-row {
+		margin-top: 180px;
+	}
+}
+
+@media screen and (min-width : 62em) {
+	
+	h1 {
+		font-size: 74px;
+	}
+
+	h2 {
+		font-size: 68px;
+	}
+
+	.bg-breaker {
+		padding-top: 300px;
+		margin-top: 150px;
+	}
+
+	section.after-breaker {
+		margin-top: -180px;
+	}
+
+	footer {
+		position: inherit;
+		border-top: 0 none;
+		padding-top: 11px;
+		background-color: transparent;
+	}
+
+}
+
+@media screen and (min-width : 75em) {
+	
+	h1 {
+		font-size: 82px;
+	}
+
+}
